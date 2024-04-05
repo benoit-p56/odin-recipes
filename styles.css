@@ -1,26 +1,41 @@
-.titles {
-    font-family: Verdana;
-    text-align: center;
-    background-color: orangered;
-    color: white;
+html {
+    background-color: beige;
 }
 
-h3.titles {
-    padding: 5px;
+.titles {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Verdana;
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    padding: 10px 0px;
+    width: 800px;
+    border: solid 3px black;
 }
 
 ul {
     text-align: center;
     list-style-position: inside;
-    background-color: greenyellow;
     font-family: Tahoma;
 }
 
-p {
-    text-align: center;
-    background-color: grey;
-    color: white;
-    font-family: Tahoma;
-    font-weight: bold;
-    padding: 10px;
+li.recipes {
+    display: inline-block;
+    margin: 0 30px;
+    border-color: orange;
+    border-width: 20px;
+    background-color: white;
+    padding: 60px 30px;
+    border: solid 2px black; 
+    font-family: sans-serif;
+}
+
+li.sources {
+    border: solid 2px black;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
 }
